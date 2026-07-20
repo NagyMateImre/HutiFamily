@@ -5,8 +5,6 @@ body {
     transition: 0.8s;
 }
 
-
-
 body.dark {
     --body-color:#2E236C;
     --sidebar-color:#17153B;

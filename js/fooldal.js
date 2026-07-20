@@ -16,13 +16,13 @@ modeSwitch.addEventListener("click", () => {
 
     if(body.classList.contains("dark")) {
 
-        modeText.innerHTML = "Nappali mód";
+        modeText.innerHTML = "Éjszakai mód";
 
         body.style.backgroundImage = "url('../img/nightBg.jpg')";
 
     } else {
 
-        modeText.innerHTML = "Éjszakai mód";
+        modeText.innerHTML = "Nappali mód";
 
         body.style.backgroundImage = "url('../img/dayBg.png')";
     }
